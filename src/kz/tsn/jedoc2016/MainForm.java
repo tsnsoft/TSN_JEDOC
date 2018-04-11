@@ -69,7 +69,7 @@ public class MainForm extends JFrame {
         jPopupMenu2.add(jMenuItem4);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Электронная справка по курсу \"Программирование на Java (NetBeans)\", v2016 (win, linux)\n");
+        setTitle("Электронная справка по курсу \"Программирование на Java (NetBeans)\", v2016 (win, linux)");
         setBackground(new java.awt.Color(212, 180, 180));
         setIconImage(java.awt.Toolkit.getDefaultToolkit().createImage(getClass().getResource("icon.png")));
         setResizable(false);
