@@ -7,7 +7,7 @@ import java.net.URISyntaxException;
 
 public class launchMail {
      launchMail(String mailTo) {
-        // Отправка письма
+        // РћС‚РїСЂР°РІРєР° РїРёСЃСЊРјР°
         Desktop desktop;
         if (Desktop.isDesktopSupported()) {
             desktop = Desktop.getDesktop();

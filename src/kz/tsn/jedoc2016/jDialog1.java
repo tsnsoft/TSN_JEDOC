@@ -22,7 +22,7 @@ public class jDialog1 extends javax.swing.JDialog {
         jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("О программе");
+        setTitle("Рћ РїСЂРѕРіСЂР°РјРјРµ");
         setAutoRequestFocus(false);
         setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -37,7 +37,7 @@ public class jDialog1 extends javax.swing.JDialog {
         jPanel1.setLayout(null);
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kz/tsn/jedoc2016/quit.png"))); // NOI18N
-        jButton1.setToolTipText("Закрыть окно");
+        jButton1.setToolTipText("Р—Р°РєСЂС‹С‚СЊ РѕРєРЅРѕ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -48,7 +48,7 @@ public class jDialog1 extends javax.swing.JDialog {
 
         jLabel2.setForeground(new java.awt.Color(255, 204, 0));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        jLabel2.setText("<html> <cite>Талипов С.Н., г. Павлодар, 2016 г. </cite><br> <strong> talipovsn@hotmail.com</strong><br> </html>");
+        jLabel2.setText("<html> <cite>РўР°Р»РёРїРѕРІ РЎ.Рќ., Рі. РџР°РІР»РѕРґР°СЂ, 2016 Рі. </cite><br> <strong> talipovsn@hotmail.com</strong><br> </html>");
         jLabel2.setToolTipText("");
         jLabel2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         jLabel2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -58,7 +58,7 @@ public class jDialog1 extends javax.swing.JDialog {
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kz/tsn/jedoc2016/tsn.png"))); // NOI18N
-        jLabel1.setToolTipText("Письмо автору");
+        jLabel1.setToolTipText("РџРёСЃСЊРјРѕ Р°РІС‚РѕСЂСѓ");
         jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel1.setHorizontalTextPosition(javax.swing.SwingConstants.RIGHT);
@@ -72,18 +72,18 @@ public class jDialog1 extends javax.swing.JDialog {
 
         jLabel5.setForeground(new java.awt.Color(255, 255, 102));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setText("Электронная справка по Java");
+        jLabel5.setText("Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ СЃРїСЂР°РІРєР° РїРѕ Java");
         jPanel1.add(jLabel5);
         jLabel5.setBounds(90, 20, 270, 20);
 
         jLabel7.setForeground(new java.awt.Color(255, 255, 102));
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setText("Для платформы NetBeans ");
+        jLabel7.setText("Р”Р»СЏ РїР»Р°С‚С„РѕСЂРјС‹ NetBeans ");
         jPanel1.add(jLabel7);
         jLabel7.setBounds(100, 50, 260, 20);
 
         jLabel4.setForeground(new java.awt.Color(247, 72, 33));
-        jLabel4.setText("Только для использования в учебных целях");
+        jLabel4.setText("РўРѕР»СЊРєРѕ РґР»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РІ СѓС‡РµР±РЅС‹С… С†РµР»СЏС…");
         jPanel1.add(jLabel4);
         jLabel4.setBounds(90, 80, 280, 14);
 
@@ -105,17 +105,17 @@ public class jDialog1 extends javax.swing.JDialog {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // Закрытие окна "О программе" по кнопке
+        // Р—Р°РєСЂС‹С‚РёРµ РѕРєРЅР° "Рћ РїСЂРѕРіСЂР°РјРјРµ" РїРѕ РєРЅРѕРїРєРµ
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
-        // Письмо автору
+        // РџРёСЃСЊРјРѕ Р°РІС‚РѕСЂСѓ
         new launchMail("talipovsn@hotmail.com?SUBJECT=JavaEDOC2016&BODY=Thank you for your help on Java !!!");
     }//GEN-LAST:event_jLabel1MouseClicked
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
-        // Закрытие окна "О программе"
+        // Р—Р°РєСЂС‹С‚РёРµ РѕРєРЅР° "Рћ РїСЂРѕРіСЂР°РјРјРµ"
     }//GEN-LAST:event_formWindowClosing
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

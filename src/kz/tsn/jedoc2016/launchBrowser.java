@@ -8,7 +8,7 @@ import java.net.URISyntaxException;
 public class launchBrowser {
 
      launchBrowser(String uriStr) {
-        // Запуск браузера
+        // Р—Р°РїСѓСЃРє Р±СЂР°СѓР·РµСЂР°
         Desktop desktop;
         if (Desktop.isDesktopSupported()) {
             desktop = Desktop.getDesktop();

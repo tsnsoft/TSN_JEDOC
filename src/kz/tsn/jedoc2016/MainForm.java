@@ -38,7 +38,7 @@ public class MainForm extends JFrame {
         jButton4 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
 
-        jMenuItem1.setText("Копировать выделение в буфер");
+        jMenuItem1.setText("РљРѕРїРёСЂРѕРІР°С‚СЊ РІС‹РґРµР»РµРЅРёРµ РІ Р±СѓС„РµСЂ");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
@@ -46,10 +46,10 @@ public class MainForm extends JFrame {
         });
         jPopupMenu1.add(jMenuItem1);
 
-        jMenuItem2.setText("Отмена");
+        jMenuItem2.setText("РћС‚РјРµРЅР°");
         jPopupMenu1.add(jMenuItem2);
 
-        jMenuItem5.setText("Вставить из буфера");
+        jMenuItem5.setText("Р’СЃС‚Р°РІРёС‚СЊ РёР· Р±СѓС„РµСЂР°");
         jMenuItem5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem5ActionPerformed(evt);
@@ -57,7 +57,7 @@ public class MainForm extends JFrame {
         });
         jPopupMenu2.add(jMenuItem5);
 
-        jMenuItem3.setText("Копировать выделение в буфер");
+        jMenuItem3.setText("РљРѕРїРёСЂРѕРІР°С‚СЊ РІС‹РґРµР»РµРЅРёРµ РІ Р±СѓС„РµСЂ");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem3ActionPerformed(evt);
@@ -65,11 +65,11 @@ public class MainForm extends JFrame {
         });
         jPopupMenu2.add(jMenuItem3);
 
-        jMenuItem4.setText("Отмена");
+        jMenuItem4.setText("РћС‚РјРµРЅР°");
         jPopupMenu2.add(jMenuItem4);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Электронная справка по курсу \"Программирование на Java (NetBeans)\", v2016 (win, linux)\n");
+        setTitle("Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ СЃРїСЂР°РІРєР° РїРѕ РєСѓСЂСЃСѓ \"РџСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ РЅР° Java (NetBeans)\", v2016 (win, linux)\n");
         setBackground(new java.awt.Color(212, 180, 180));
         setIconImage(java.awt.Toolkit.getDefaultToolkit().createImage(getClass().getResource("icon.png")));
         setResizable(false);
@@ -92,7 +92,7 @@ public class MainForm extends JFrame {
         jComboBox1.setBackground(new java.awt.Color(238, 240, 245));
         jComboBox1.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jComboBox1.setMaximumRowCount(16);
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1. Настройка NetBeans и запуск программ", "2. Простейшие программы", "3. Работа с таблицами JTable", "4. Типы данных. Управляющие конструкции", "5. Работа с массивами", "6. Формы, панели, вкладки", "7. Работа со строками", "8. Компоненты работы текстовыми данными", "9. Работа с таймерами, звуком, графикой, треем, потоками, реестром", "10. Многооконные программы", "11. Компоненты списков и выбора", "12. Компоненты работы с числовыми данными", "13. Работа с меню и диалогами", "14. Работа с файлами", "15. Многоклассовые программы" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1. РќР°СЃС‚СЂРѕР№РєР° NetBeans Рё Р·Р°РїСѓСЃРє РїСЂРѕРіСЂР°РјРј", "2. РџСЂРѕСЃС‚РµР№С€РёРµ РїСЂРѕРіСЂР°РјРјС‹", "3. Р Р°Р±РѕС‚Р° СЃ С‚Р°Р±Р»РёС†Р°РјРё JTable", "4. РўРёРїС‹ РґР°РЅРЅС‹С…. РЈРїСЂР°РІР»СЏСЋС‰РёРµ РєРѕРЅСЃС‚СЂСѓРєС†РёРё", "5. Р Р°Р±РѕС‚Р° СЃ РјР°СЃСЃРёРІР°РјРё", "6. Р¤РѕСЂРјС‹, РїР°РЅРµР»Рё, РІРєР»Р°РґРєРё", "7. Р Р°Р±РѕС‚Р° СЃРѕ СЃС‚СЂРѕРєР°РјРё", "8. РљРѕРјРїРѕРЅРµРЅС‚С‹ СЂР°Р±РѕС‚С‹ С‚РµРєСЃС‚РѕРІС‹РјРё РґР°РЅРЅС‹РјРё", "9. Р Р°Р±РѕС‚Р° СЃ С‚Р°Р№РјРµСЂР°РјРё, Р·РІСѓРєРѕРј, РіСЂР°С„РёРєРѕР№, С‚СЂРµРµРј, РїРѕС‚РѕРєР°РјРё, СЂРµРµСЃС‚СЂРѕРј", "10. РњРЅРѕРіРѕРѕРєРѕРЅРЅС‹Рµ РїСЂРѕРіСЂР°РјРјС‹", "11. РљРѕРјРїРѕРЅРµРЅС‚С‹ СЃРїРёСЃРєРѕРІ Рё РІС‹Р±РѕСЂР°", "12. РљРѕРјРїРѕРЅРµРЅС‚С‹ СЂР°Р±РѕС‚С‹ СЃ С‡РёСЃР»РѕРІС‹РјРё РґР°РЅРЅС‹РјРё", "13. Р Р°Р±РѕС‚Р° СЃ РјРµРЅСЋ Рё РґРёР°Р»РѕРіР°РјРё", "14. Р Р°Р±РѕС‚Р° СЃ С„Р°Р№Р»Р°РјРё", "15. РњРЅРѕРіРѕРєР»Р°СЃСЃРѕРІС‹Рµ РїСЂРѕРіСЂР°РјРјС‹" }));
         jComboBox1.setBorder(javax.swing.BorderFactory.createCompoundBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED), javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0))));
         jComboBox1.setOpaque(false);
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -114,7 +114,7 @@ public class MainForm extends JFrame {
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(20, 60, 770, 430);
 
-        jButton1.setText("Найти по тексту");
+        jButton1.setText("РќР°Р№С‚Рё РїРѕ С‚РµРєСЃС‚Сѓ");
         jButton1.setToolTipText("");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,11 +136,11 @@ public class MainForm extends JFrame {
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 224, 163));
-        jLabel4.setText("ЧТО ИСКАТЬ:");
+        jLabel4.setText("Р§РўРћ РРЎРљРђРўР¬:");
         getContentPane().add(jLabel4);
         jLabel4.setBounds(30, 510, 110, 20);
 
-        jButton2.setText("Убрать подсветку");
+        jButton2.setText("РЈР±СЂР°С‚СЊ РїРѕРґСЃРІРµС‚РєСѓ");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -149,7 +149,7 @@ public class MainForm extends JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(480, 510, 170, 23);
 
-        jButton3.setText("Выход");
+        jButton3.setText("Р’С‹С…РѕРґ");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -159,7 +159,7 @@ public class MainForm extends JFrame {
         jButton3.setBounds(675, 510, 100, 23);
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/kz/tsn/jedoc2016/information.png"))); // NOI18N
-        jButton4.setToolTipText("О программе");
+        jButton4.setToolTipText("Рћ РїСЂРѕРіСЂР°РјРјРµ");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);
@@ -179,7 +179,7 @@ public class MainForm extends JFrame {
 
 
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
-        // Загрузка локального (из каталога готового jar-файла) rtf-документа в JEditorPane
+        // Р—Р°РіСЂСѓР·РєР° Р»РѕРєР°Р»СЊРЅРѕРіРѕ (РёР· РєР°С‚Р°Р»РѕРіР° РіРѕС‚РѕРІРѕРіРѕ jar-С„Р°Р№Р»Р°) rtf-РґРѕРєСѓРјРµРЅС‚Р° РІ JEditorPane
         {
             try {
                 jEditorPane1.setContentType("text/rtf");
@@ -194,35 +194,35 @@ public class MainForm extends JFrame {
         };    }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
-        // Инициализация программы
+        // РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РїСЂРѕРіСЂР°РјРјС‹
         jComboBox1ActionPerformed(null);
     }//GEN-LAST:event_formWindowOpened
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
-        // Копировать выделение из jEditorPane1 в буфер обмена
+        // РљРѕРїРёСЂРѕРІР°С‚СЊ РІС‹РґРµР»РµРЅРёРµ РёР· jEditorPane1 РІ Р±СѓС„РµСЂ РѕР±РјРµРЅР°
         jEditorPane1.copy();
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // Подсветка искомого значения
-        // Получение содержимого документа
+        // РџРѕРґСЃРІРµС‚РєР° РёСЃРєРѕРјРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ
+        // РџРѕР»СѓС‡РµРЅРёРµ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ РґРѕРєСѓРјРµРЅС‚Р°
         boolean f = false;
         DefaultStyledDocument doc = (DefaultStyledDocument) jEditorPane1.getDocument();
-        MutableAttributeSet attr = new SimpleAttributeSet(); // Атрибуты текста
-        StyleConstants.setBackground(attr, new Color(255, 255, 177)); // Установка цвета
-        String s2 = jTextField1.getText().toUpperCase(); // Искомый текст большими буквами
-        String s = null; // Текст документа
-        int d = s2.length(); // Длина искомого текста
+        MutableAttributeSet attr = new SimpleAttributeSet(); // РђС‚СЂРёР±СѓС‚С‹ С‚РµРєСЃС‚Р°
+        StyleConstants.setBackground(attr, new Color(255, 255, 177)); // РЈСЃС‚Р°РЅРѕРІРєР° С†РІРµС‚Р°
+        String s2 = jTextField1.getText().toUpperCase(); // РСЃРєРѕРјС‹Р№ С‚РµРєСЃС‚ Р±РѕР»СЊС€РёРјРё Р±СѓРєРІР°РјРё
+        String s = null; // РўРµРєСЃС‚ РґРѕРєСѓРјРµРЅС‚Р°
+        int d = s2.length(); // Р”Р»РёРЅР° РёСЃРєРѕРјРѕРіРѕ С‚РµРєСЃС‚Р°
         try {
-            // Получение текста документа большими буквами
+            // РџРѕР»СѓС‡РµРЅРёРµ С‚РµРєСЃС‚Р° РґРѕРєСѓРјРµРЅС‚Р° Р±РѕР»СЊС€РёРјРё Р±СѓРєРІР°РјРё
             s = doc.getText(0, doc.getLength()).toUpperCase();
         } catch (BadLocationException ex) {
         }
-        int k = 1, k2 = 0; // Инициализация переменных
-        while (k > 0) { // Цикл пока находится искомое значение
-            k = s.indexOf(s2, k2); // Поиск искомого значения в тексте документа
-            if (k > 0) { // Если поиск успешен, то
-                // Установка атрибутов тексту документа
+        int k = 1, k2 = 0; // РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РїРµСЂРµРјРµРЅРЅС‹С…
+        while (k > 0) { // Р¦РёРєР» РїРѕРєР° РЅР°С…РѕРґРёС‚СЃСЏ РёСЃРєРѕРјРѕРµ Р·РЅР°С‡РµРЅРёРµ
+            k = s.indexOf(s2, k2); // РџРѕРёСЃРє РёСЃРєРѕРјРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ РІ С‚РµРєСЃС‚Рµ РґРѕРєСѓРјРµРЅС‚Р°
+            if (k > 0) { // Р•СЃР»Рё РїРѕРёСЃРє СѓСЃРїРµС€РµРЅ, С‚Рѕ
+                // РЈСЃС‚Р°РЅРѕРІРєР° Р°С‚СЂРёР±СѓС‚РѕРІ С‚РµРєСЃС‚Сѓ РґРѕРєСѓРјРµРЅС‚Р°
                 doc.setCharacterAttributes(k, d, attr, false);
                 f = true;
                 k2 = k + d;
@@ -232,40 +232,40 @@ public class MainForm extends JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // Убрать подсветку с найденных значений
+        // РЈР±СЂР°С‚СЊ РїРѕРґСЃРІРµС‚РєСѓ СЃ РЅР°Р№РґРµРЅРЅС‹С… Р·РЅР°С‡РµРЅРёР№
         jTextField1.setText("");
         jComboBox1ActionPerformed(null);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // Выход
+        // Р’С‹С…РѕРґ
         System.exit(0);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
-        // Копировать выделение в буфер
+        // РљРѕРїРёСЂРѕРІР°С‚СЊ РІС‹РґРµР»РµРЅРёРµ РІ Р±СѓС„РµСЂ
         jTextField1.copy();
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-        // Вставить из буфера
+        // Р’СЃС‚Р°РІРёС‚СЊ РёР· Р±СѓС„РµСЂР°
         jTextField1.paste();
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // О программе
+        // Рћ РїСЂРѕРіСЂР°РјРјРµ
         new jDialog1(null, true).setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
-        // Выход из программы
+        // Р’С‹С…РѕРґ РёР· РїСЂРѕРіСЂР°РјРјС‹
         jButton3ActionPerformed(null);
     }//GEN-LAST:event_formWindowClosing
 
     private void jTextField1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextField1KeyPressed
-        // Нажатие клавиши "Enter"
-        int key = evt.getKeyCode(); // Получаем код нажатой клавиши
-        if (key == KeyEvent.VK_ENTER) { // Если нажата, клавиша "Enter", то
+        // РќР°Р¶Р°С‚РёРµ РєР»Р°РІРёС€Рё "Enter"
+        int key = evt.getKeyCode(); // РџРѕР»СѓС‡Р°РµРј РєРѕРґ РЅР°Р¶Р°С‚РѕР№ РєР»Р°РІРёС€Рё
+        if (key == KeyEvent.VK_ENTER) { // Р•СЃР»Рё РЅР°Р¶Р°С‚Р°, РєР»Р°РІРёС€Р° "Enter", С‚Рѕ
             // jButton1.requestFocus();
             jButton1ActionPerformed(null);
         }
